@@ -13,7 +13,7 @@
 }
 
 .h1{
-    border: solid;
+    /* border: solid; */
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -49,4 +49,29 @@ button{
     font-weight: bold;
     border-radius: 7px;
     width: 30%;
+}
+/* Begin styling part1 class*/
+.part1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.card{
+    border: solid;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
 }
