@@ -1,0 +1,52 @@
+.logo{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px 50px 150px
+    
+}
+.header{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.h1{
+    border: solid;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    /* align-items: center; */
+    width: 500px;
+    align-content: flex-end;
+}
+.h2{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: grey;
+}
+.logo, .header{
+    background-color: #1f2937;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.h1 h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    width: 30%;
+}
